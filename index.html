@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BMI Calculator</title>
+    <title>BMI Calculator - Calculate Your Body Mass Index Easily</title>
+    <meta name="description" content="Use our free BMI calculator to find out your Body Mass Index and understand your weight status. Learn more about BMI and its importance.">
+    <meta name="keywords" content="BMI, Body Mass Index, BMI calculator, weight status, health">
     <style>
         body {
             background-color: black;
@@ -83,7 +85,14 @@
         .info-container ul {
             padding-left: 20px;
         }
+
+        .ads {
+            margin: 20px 0;
+            text-align: center;
+        }
     </style>
+    <!-- Google AdSense code -->
+    <script data-ad-client="YOUR_ADSENSE_CLIENT_ID" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 <body>
     <div class="container">
@@ -100,13 +109,27 @@
         <p id="result"></p>
     </div>
     
+    <!-- Ad placement -->
+    <div class="ads">
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="YOUR_ADSENSE_CLIENT_ID"
+             data-ad-slot="YOUR_AD_SLOT_ID"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+    
     <div class="info-container">
         <h2>Body Mass Index (BMI)</h2>
         <p>Body Mass Index (BMI) is a simple index of weight-for-height that is commonly used to classify underweight, overweight, and obesity in adults. It is defined as the weight in kilograms divided by the square of the height in meters (kg/m²).</p>
         
-             <h3>Formula</h3>
-<p>The formula to calculate BMI is:</p>
-<p><strong>\( \text{BMI} = \frac{\text{weight (kg)}}{(\text{height (m)})^2} \)</strong></p>
+        <h3>Formula</h3>
+        <p>The formula to calculate BMI is:</p>
+        <p><strong>\( \text{BMI} = \frac{\text{weight (kg)}}{(\text{height (m)})^2} \)</strong></p>
+        
         <h3>Classification</h3>
         <p>According to the World Health Organization (WHO), the BMI classification is:</p>
         <ul>
@@ -148,6 +171,6 @@
         }
     </script>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </body>
 </html>
